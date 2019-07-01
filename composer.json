@@ -8,6 +8,7 @@
             "email": "442629104@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0"
     },
