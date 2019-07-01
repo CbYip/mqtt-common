@@ -1,7 +1,7 @@
 {
     "name": "mqtt-common/mqtt-common",
     "description": "Extend for MQTT",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "CbYip",
