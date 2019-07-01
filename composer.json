@@ -2,6 +2,7 @@
     "name": "carlyip/mqtt-common",
     "description": "Extend for MQTT",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "CbYip",
