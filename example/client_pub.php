@@ -5,8 +5,8 @@
  * Time: 上午10:31
  */
 
-require_once __DIR__ . '/../src/protocol/Mqtt.php';
-require_once __DIR__ . '/../src/Client.php';
+require_once '../vendor/autoload.php';
+use mqtt\Client;
 
 $config = [
     'host'      => '127.0.0.1',
@@ -17,7 +17,7 @@ $config = [
 ];
 
 go(function () use ($config) {
-    $client = new \mqtt\Client($config);
+    $client = new Client($config);
     while (!$client->connect()) {
         \Swoole\Coroutine::sleep(3);
         $client->connect();

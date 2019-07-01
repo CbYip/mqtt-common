@@ -5,8 +5,8 @@
  * Time: 上午11:48
  */
 
-require_once __DIR__ . '/../src/protocol/Mqtt.php';
-require_once __DIR__ . '/../src/Client.php';
+require_once '../vendor/autoload.php';
+use mqtt\Client;
 
 $config = [
     'host'      => '127.0.0.1',
@@ -18,7 +18,7 @@ $config = [
 ];
 
 go(function () use ($config) {
-    $client = new \mqtt\Client($config);
+    $client = new Client($config);
     $will = [
         'topic'   => 'vzk6p63muX9B/device2/update',
         'qos'     => 1,

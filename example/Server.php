@@ -5,9 +5,8 @@
  * Time: 上午9:53
  */
 
-namespace mqtt\example;
-require_once __DIR__ . "/../src/Redis.php";
-require_once __DIR__ . "/../src/Server.php";
+namespace example;
+require_once '../vendor/autoload.php';
 
 use mqtt\Redis;
 use swoole_server;
