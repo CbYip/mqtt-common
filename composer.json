@@ -1,10 +1,10 @@
 {
-    "name": "cb/mqtt",
+    "name": "CbYip/mqtt",
     "description": "Extend for MQTT",
     "type": "project",
     "authors": [
         {
-            "name": "Carl Yip",
+            "name": "CbYip",
             "email": "442629104@qq.com"
         }
     ],
