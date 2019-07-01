@@ -5,7 +5,7 @@
  * Time: 下午2:17
  */
 
-namespace mqtt\src\protocol;
+namespace mqtt\protocol;
 
 class Mqtt
 {

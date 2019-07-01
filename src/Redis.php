@@ -6,7 +6,7 @@
  * Time: 下午4:32
  */
 
-namespace mqtt\src;
+namespace mqtt;
 
 class Redis
 {

@@ -5,10 +5,9 @@
  * Time: 下午2:21
  */
 
-namespace mqtt\src;
-require_once 'protocol/Mqtt.php';
+namespace mqtt;
 
-use mqtt\src\protocol\Mqtt;
+use mqtt\protocol\Mqtt;
 use Swoole\Coroutine;
 
 class Client

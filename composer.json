@@ -1,0 +1,19 @@
+{
+    "name": "cb/mqtt",
+    "description": "Extend for MQTT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Carl Yip",
+            "email": "442629104@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mqtt": "src"
+        }
+    }
+}
