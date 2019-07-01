@@ -1,5 +1,5 @@
 {
-    "name": "CarlYip/mqtt-common",
+    "name": "carlyip/mqtt-common",
     "description": "Extend for MQTT",
     "type": "library",
     "authors": [
