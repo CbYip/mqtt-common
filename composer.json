@@ -1,5 +1,5 @@
 {
-    "name": "CbYip/mqtt",
+    "name": "CbYip/mqtt-common",
     "description": "Extend for MQTT",
     "type": "project",
     "authors": [
