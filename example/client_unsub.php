@@ -17,7 +17,7 @@ $config = [
 ];
 
 go(function () use ($config) {
-    $client = new \mqtt\src\Client($config);
+    $client = new \mqtt\Client($config);
     while (!$client->connect()) {
         \Swoole\Coroutine::sleep(3);
         $client->connect();

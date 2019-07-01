@@ -9,9 +9,9 @@ namespace mqtt\example;
 require_once __DIR__ . "/../src/Redis.php";
 require_once __DIR__ . "/../src/Server.php";
 
-use mqtt\src\Redis;
+use mqtt\Redis;
 use swoole_server;
-use mqtt\src\Server as BaseServer;
+use mqtt\Server as BaseServer;
 
 class Server extends BaseServer
 {

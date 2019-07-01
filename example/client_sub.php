@@ -18,7 +18,7 @@ $config = [
 ];
 
 go(function () use ($config) {
-    $client = new \mqtt\src\Client($config);
+    $client = new \mqtt\Client($config);
     $will = [
         'topic'   => 'vzk6p63muX9B/device2/update',
         'qos'     => 1,
