@@ -1,10 +1,7 @@
 <?php
 /**
- * Author: Carl Yip
- * Date: 19-6-19
- * Time: 下午2:17
+ * https://github.com/walkor/mqtt/blob/master/src/Protocols/Mqtt.php
  */
-
 namespace mqtt\protocol;
 
 class Mqtt
